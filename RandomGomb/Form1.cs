@@ -13,10 +13,11 @@ namespace RandomGomb
             {
                 Random random = new Random();
                 Button button = new Button();
-                button.Height = 10;
-                button.Width = 10;
-                button.Top = random.Next(0, ClientRectangle.Height);
-                button.Left = random.Next(0, ClientRectangle.Width);
+                button.Height = random.Next(1,101);
+                button.Width = random.Next(1, 101);
+                button.BackColor = Color.FromArgb(random.Next(0, 256), random.Next(0, 256), random.Next(0, 256));
+                button.Top = random.Next(0, ClientRectangle.Height-button.Height);
+                button.Left = random.Next(0, ClientRectangle.Width-button.Width);
                 Controls.Add(button);
             }
         }
