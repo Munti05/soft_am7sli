@@ -5,7 +5,11 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fibonacci", "Fibonacci\Fibonacci.csproj", "{3B8FA129-9B9D-413C-8DD9-CDBB0CE22C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pascalHaromszog", "pascalHaromszog\pascalHaromszog.csproj", "{04163B39-BF17-403D-A8F0-0DE78901B094}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pascalHaromszog", "pascalHaromszog\pascalHaromszog.csproj", "{04163B39-BF17-403D-A8F0-0DE78901B094}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VillogoGomb", "VillogoGomb\VillogoGomb.csproj", "{BA0642D3-CD16-471D-8DD0-BCD830BCF123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomGomb", "RandomGomb\RandomGomb.csproj", "{DFBCE334-861F-45EA-A6BA-2DE9201B7024}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{04163B39-BF17-403D-A8F0-0DE78901B094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04163B39-BF17-403D-A8F0-0DE78901B094}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04163B39-BF17-403D-A8F0-0DE78901B094}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA0642D3-CD16-471D-8DD0-BCD830BCF123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA0642D3-CD16-471D-8DD0-BCD830BCF123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA0642D3-CD16-471D-8DD0-BCD830BCF123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA0642D3-CD16-471D-8DD0-BCD830BCF123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBCE334-861F-45EA-A6BA-2DE9201B7024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBCE334-861F-45EA-A6BA-2DE9201B7024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBCE334-861F-45EA-A6BA-2DE9201B7024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBCE334-861F-45EA-A6BA-2DE9201B7024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
