@@ -20,7 +20,7 @@ namespace VillogoGomb
                     SzinezoGomb b = new SzinezoGomb();
                     b.Height = mbox;
                     b.Width = mbox;
-                    b.Left = oszlop * mbox; //középre igazítás
+                    b.Left = oszlop * mbox; 
                     b.Top = sor * mbox;
                     b.Text = ((sor + 1) * (oszlop + 1)).ToString();
                     Controls.Add(b);
