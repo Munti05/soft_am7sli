@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomGomb", "RandomGomb\Ra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorla_az_elso_zhra", "gyakorla_az_elso_zhra\gyakorla_az_elso_zhra.csproj", "{62DA455A-82C1-4FAB-8D44-9AE9A7D52A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HajosKviz", "HajosKviz\HajosKviz.csproj", "{13AAF164-3DB4-4C8D-850E-E587E2C6DA07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HajosKviz", "HajosKviz\HajosKviz.csproj", "{13AAF164-3DB4-4C8D-850E-E587E2C6DA07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KigyosJatek", "KigyosJatek\KigyosJatek.csproj", "{9C98CB28-C920-4928-9AB0-261E9A3B05F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{13AAF164-3DB4-4C8D-850E-E587E2C6DA07}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13AAF164-3DB4-4C8D-850E-E587E2C6DA07}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13AAF164-3DB4-4C8D-850E-E587E2C6DA07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C98CB28-C920-4928-9AB0-261E9A3B05F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C98CB28-C920-4928-9AB0-261E9A3B05F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C98CB28-C920-4928-9AB0-261E9A3B05F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C98CB28-C920-4928-9AB0-261E9A3B05F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
