@@ -13,6 +13,9 @@ namespace KigyosJatek
             Width = 20;
             Height = 20;
             BackColor = Color.Red;
+            Random rnd = new Random();
+            Top = rnd.Next(0, ClientRectangle.Height - 20);
+            Left = rnd.Next(0, ClientRectangle.Width - 20);
         }
     }
 }
