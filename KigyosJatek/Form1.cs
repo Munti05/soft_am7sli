@@ -11,7 +11,6 @@ namespace KigyosJatek
         int hossz = 10;
 
         List<KigyoElem> kigyo = new List<KigyoElem>();
-        List<Kaja> kajas = new List<Kaja>();
 
         public Form1()
         {
@@ -20,7 +19,7 @@ namespace KigyosJatek
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -38,6 +37,9 @@ namespace KigyosJatek
                     if (k.Top == fejY && k.Left == fejX)
                     {
                         timer1.Enabled = false;
+                        label1.Text ="Game Over";
+                        label1.Top = ClientRectangle.Height/2-label1.Height/2;
+                        label1.Left = ClientRectangle.Width/2-label1.Width/2;
                         return;
                     }
                 }
@@ -45,23 +47,10 @@ namespace KigyosJatek
 
             KigyoElem kigyoElem = new KigyoElem();
             kigyoElem.Top = fejY;
-            kigyoElem.Left = fejX;
-
-            Random rnd = new Random();
-
-            if (lepesszam ==0)
-            {
-                Kaja etel = new Kaja();
-                Controls.Add(etel);
-            }
-
-            
+            kigyoElem.Left = fejX;        
 
             kigyo.Add(kigyoElem);
             Controls.Add(kigyoElem);
-
-
-            
 
             if (Controls.Count > hossz)
             {
@@ -72,9 +61,13 @@ namespace KigyosJatek
 
             if (lepesszam % 2 == 0)
             {
-                kigyoElem.BackColor = Color.Blue;
+                kigyoElem.BackColor = Color.Green;
             }
 
+            if (fejX == 200 && fejY == 100)
+            {
+                
+            }
 
         }
 
