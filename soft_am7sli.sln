@@ -23,7 +23,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyakorlas_2_zhra", "gyakorl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2zh_gyakorlas_mintazh", "2zh_gyakorlas_mintazh\2zh_gyakorlas_mintazh.csproj", "{D510A0D4-4148-4367-B367-A59EA723178F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "adatbazis_hozzakapcsolas1", "adatbazis_hozzakapcsolas1\adatbazis_hozzakapcsolas1.csproj", "{4DA90FCE-675A-419B-812A-B22C588766CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "adatbazis_hozzakapcsolas1", "adatbazis_hozzakapcsolas1\adatbazis_hozzakapcsolas1.csproj", "{4DA90FCE-675A-419B-812A-B22C588766CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsillagTerkep", "CsillagTerkep\CsillagTerkep.csproj", "{DC705A8C-43FC-4311-8A96-FA315A7205E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{4DA90FCE-675A-419B-812A-B22C588766CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DA90FCE-675A-419B-812A-B22C588766CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DA90FCE-675A-419B-812A-B22C588766CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC705A8C-43FC-4311-8A96-FA315A7205E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC705A8C-43FC-4311-8A96-FA315A7205E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC705A8C-43FC-4311-8A96-FA315A7205E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC705A8C-43FC-4311-8A96-FA315A7205E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
